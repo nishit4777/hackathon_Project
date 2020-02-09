@@ -1,0 +1,6 @@
+curl -X POST -s \
+  --form-string "app_key=your_app_key" \
+  --form-string "app_secret=your_app_secret" \
+  --form-string "target_type=your_target_type" \
+  --form-string "content=Your notification content." \
+  https://api.pushed.co/1/push

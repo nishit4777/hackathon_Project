@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+.kabi{
+     height:500px;
+     margin-top:-100px;
+     margin-bottom: -1000px;
+
+}
+</style>
+<body>
+    <div class="kabi">
+        <iframe src="http://www.tngovbloodbank.in/FAQ.php" name="iframe_all" scrolling="no"
+                     frameborder="0" height="100%" width="100%" ></iframe>
+      </div>
+      <script>
+      var frame = document.querySelector("iframe");
+header = frame.contentDocument.querySelector("header");
+header.remove();
+footer = frame.contentDocument.querySelector("footer");
+footer.remove();
+      
+      </script>
+</body>
